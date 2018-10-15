@@ -1,0 +1,67 @@
+<html> 
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="./js/jquery-3.3.1.js" ></script>
+		<script src="./js/option.js"></script>
+		<style type="text/css">	
+			#frame {
+				margin : 10px;
+				padding: 10px;
+				background-color: #f7f7f7;
+			}
+			input {
+				height: 26px;
+				font-size: 14px;
+				width: 180px;
+				float: right;
+				margin-top: 2px;
+				padding:0 4px;
+			}
+			
+			.row {
+				width: 270px;
+				display: block;
+				margin-bottom: 8px;
+				height: 30px;
+			}
+			
+			font {
+				font-size: 16px;
+				position: absolute;
+				margin-top: 3px; 
+			}
+			
+			button {
+				height: 30px;
+				margin-right: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="frame">
+			<div style="margin-bottom: 12px;">
+				<div class="row">
+					<font>日期</font>
+					<input id="date" type="text" /> 
+				</div>
+				<div class="row"> 
+					<button id="button_date2stamp" type="button">转换</button>
+					<input id="text_date2stamp" /> 
+				</div>
+			</div>
+			
+			<hr style="border-bottom:#987cb9 1px dashed;border-left:#987cb9 1px dashed;border-top:#987cb9 1px dashed;border-right:#987cb9 1px dashed;margin-top: 10px;margin-bottom:10px;" size="1">
+			
+			<div>
+				<div class="row">
+					<font>时间戳</font>
+					<input id="stamp" type="text" /> 
+				</div>
+				<div class="row">
+					<button id="button_stamp2date" type="button">转换</button>
+					<input id="text_stamp2date" />
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>
